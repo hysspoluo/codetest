@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/png/C:/Users/lenovo/Desktop/第6章DIY字符画——源码/06/可执行程序/img/import.png);</string>
+     <string notr="true">background-image: url(:/png/import.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -40,31 +40,10 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/png/C:/Users/lenovo/Desktop/第6章DIY字符画——源码/06/可执行程序/img/conversion.png);</string>
+     <string notr="true">background-image: url(:/png/conversion.png);</string>
     </property>
     <property name="text">
      <string/>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit">
-    <property name="geometry">
-     <rect>
-      <x>440</x>
-      <y>220</y>
-      <width>121</width>
-      <height>87</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color:rgb(255,0,0);
-placeholderText:请输入字符</string>
-    </property>
-    <property name="html">
-     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;请输入字符&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QComboBox" name="comboBox">
@@ -76,6 +55,21 @@ p, li { white-space: pre-wrap; }
       <height>22</height>
      </rect>
     </property>
+    <item>
+     <property name="text">
+      <string>清晰</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>一般</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>字符</string>
+     </property>
+    </item>
    </widget>
    <widget class="QLabel" name="iput_image">
     <property name="geometry">
@@ -96,8 +90,8 @@ p, li { white-space: pre-wrap; }
    <widget class="QLabel" name="output_image">
     <property name="geometry">
      <rect>
-      <x>640</x>
-      <y>160</y>
+      <x>620</x>
+      <y>150</y>
       <width>261</width>
       <height>311</height>
      </rect>
@@ -107,6 +101,23 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="scaledContents">
      <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>230</y>
+      <width>104</width>
+      <height>87</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
   </widget>
